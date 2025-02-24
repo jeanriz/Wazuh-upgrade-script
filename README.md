@@ -13,10 +13,10 @@ Active internet connection.
 Installation
 
 Clone this repository to your machine:
-
+```
 git clone https://github.com/your-repo/Wazuh-upgrade-script.git
 cd Wazuh-upgrade-script
-
+```
 Usage
 
 Run the script as root or with sudo:
