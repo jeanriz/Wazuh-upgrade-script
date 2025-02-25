@@ -72,6 +72,9 @@ systemctl daemon-reload
 systemctl enable wazuh-dashboard
 systemctl start wazuh-dashboard
 
+#Relance le service Wazuh manager
+systemctl restart wazuh-manager
+
 # Vérification des versions
 apt list --installed wazuh-indexer
 apt list --installed wazuh-manager
